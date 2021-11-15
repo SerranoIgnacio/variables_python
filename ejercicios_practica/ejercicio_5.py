@@ -15,8 +15,12 @@ palabra_1 = str(input())
 
 print('Ingrese palabra 2:')
 palabra_2 = str(input())
-
+#[]
 # De la primera palabra tome las primeras tres letras, utilice el operador :
 # De la segunda palabra tome las primeras dos letras, utilice el operador :
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
+p1 = palabra_1[:3]
+p2 = palabra_2[:2]
+p3 = p1 + p2
+print(f'El resultado es: {p3}')
