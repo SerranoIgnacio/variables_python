@@ -45,3 +45,12 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+nom1 = str(input('Ingrese el nombre completo de su padre: '))
+nom2 = str(input('Ingrese el nombre completo de su madre: '))
+nom3 = str(input('Ingrese su nombre completo: '))
+
+direccion_completa = 'Monroe 2716'
+nombre1, apellido1 = nom1.split(' ')
+nombre2, apellido2 = nom2.split(' ')
+nombre3, apellido3 = nom3.split(' ')
+print(f'El nombre completo es: {nombre3} {apellido1} {apellido2}')
