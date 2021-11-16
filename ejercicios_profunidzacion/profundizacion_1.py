@@ -22,7 +22,6 @@ B) Resta
 C) Multiplicación
 D) División
 E) Exponente/Potencia
-
 - Para todos los casos se debe imprimir en pantalla el resultado aclarando
   la operación realizada en cada caso y con que números
   se ha realizado la operación
@@ -31,3 +30,15 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+n1 = float(input('Ingrese Numero 1: '))
+n2 = float(input('Ingrese Numero 2: '))
+sum = n1 + n2
+res = n1 - n2
+mul = n1 * n2
+div = n1 / n2
+exp = n1 ** n2
+print(f'La suma entre {n1} y {n2} es {sum}')
+print(f'La resta entre {n1} y {n2} es {res}')
+print(f'La multiplicacion entre {n1} y {n2} es {mul}')
+print(f'La division entre {n1} y {n2} es {div}')
+print(f'La exponencial entre {n1} y {n2} es {exp}')
