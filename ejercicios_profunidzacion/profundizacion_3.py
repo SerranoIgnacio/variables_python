@@ -20,21 +20,22 @@ e imprima en pantalla su nombre en los siguientes formatos:
 - Todas las letras en minúsculas
 - Todas las letras en mayúsculas
 - Solo la primera letra del nombre en mayúscula
-
 NOTA: Para realizar este ejercicio deberá usar los siguientes métodos
 de strings:
 - lower
 - upper
 - capitalize
-
 Puede buscar en internet como usar en Python estos métodos.
 Les dejamos el siguiente link que posee casos de uso de algunos de ellos:
-
 Link de referencia:
 https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
-
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+nom = str(input('Ingrese su nombre completo: '))
+
+print(nom.lower())
+print(nom.upper())
+print(nom.capitalize())
